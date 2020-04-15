@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en" class = "stu3HTML">
+
+<head><title>Music Live</title>
+
+<link rel="stylesheet" type="text/css" href="css/BeatBoxCSS.css"/>
+<link rel="stylesheet" type="text/css" href="css/Main.css"/>
+
+</head>
+
+<body class= "main-body">
+
+<!--Navigation bar-->
+<header>
+    <div class="logo">
+        <a href="../Student02/Home.html"><img src="Stu3Images/beatbox.png" alt="pic" class = "logo"></a>
+    </div>
+    <div class="container">
+
+            <div id="branding">
+                <h1><span class="highlight">BeatBox</span>Music </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../Student02/Home.html">Home</a></li>
+                    <li><a href="../Student01/Cart.html">Shopping</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li class="current"><a href="#">Quiz</a></li>
+                    <li><a href="../Student03/About_us.html">About</a></li>
+                </ul>
+			</nav>
+    </div>
+</header>
+
+<!-- create increase font size button and decrease font size button-->
+<div id="font-btn">
+    <button class="button" onClick="newjs:increaseFontSize('zoom');"> + </button>
+    <button class="button" onClick="newjs:decreaseFontSize('zoom');"> - </button>
+</div>
+<div id="zoom" style="font-size: 1em">
+
+<h2 id="h3" >MUSIC QUIZ</h2>
+
+	<div id = "quiz" class = "Quiz" align="center">
+		<p id="timer">Timer</p>
+		
+		<div id = "question" class = "question"></div>
+		
+		<label class = "answer" >
+				<input type = "radio" name = "answer" value ="1"/><span id = "answer1"></span>
+		</label>
+		<label class = "answer" >
+				<input type = "radio" name = "answer" value ="2"/><span id = "answer2"></span>
+		</label>
+		<label class = "answer" >
+				<input type = "radio" name = "answer" value ="3"/><span id = "answer3"></span>
+		</label>
+		<label class = "answer" >
+				<input type = "radio" name = "answer" value ="4"/><span id = "answer4"></span>
+		</label>
+		
+		<div><button id = "nextQ" class = "nextQ" onclick="nextQuestion();">Next Question</button></div>
+	
+	</div>
+	
+	<div id = "result" class = "container result" style="display:none;">
+	</div>
+	
+		<script src="js/BeatBoxQuestion.js"></script>
+		<script src="js/BeatBoxQuestion-Script.js"></script>
+
+<!--<audio id="myAudio" >
+  <source src="OnMyWay.mp3" type="audio/mpeg">
+
+</audio>--> 
+
+<div class = "stu3Footer2">Designed By :
+<a href = "./StudentCV/CV3.html" class = "cvLink">Shenal Anthony</a>
+</div>
+
+</div>
+
+</body>
+</html>
+
+

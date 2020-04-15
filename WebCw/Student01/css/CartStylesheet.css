@@ -1,0 +1,320 @@
+/*this is to add the font to css so the css file knows the font family*/
+@font-face {
+    font-family: myFont;
+    src: url(Rockit.ttf);
+
+}/*this is to add the font to css so the css file knows the font family*/
+@font-face {
+    font-family:newFont;
+    src:url(Gotham-XLight.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: newFont, serif;
+    color: white;
+}
+.title{
+    font-family: myFont, sans-serif;
+
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    font-family: "myFont";
+}
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color:black;
+    border: 2px solid #2D9CDB;
+    background-color: yellow;
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.section-header
+{
+font-family: "newFont";
+font-weight: normal;
+color: white;
+text-align: center;
+font-size: 2.5em;
+}
+
+.btn
+{
+text-align: center;
+vertical-align: middle;
+padding: .67em .67em;
+cursor: pointer;
+}
+.btn-header:hover {
+    background-color:white;
+}
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+.btn-primary {
+    color: black;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+/* adding styles to the */
+.shop-item {
+    margin: 30px;
+}
+.shop-item-topic {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 15px;
+}
+.shop-item-img {
+    height: 250px;
+}
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-cost {
+    flex-grow: 1;
+    color: white;
+}
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* adding styles to the cart*/
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px white;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row {
+    display: flex;
+}
+.cart-item {
+    width: 45%;
+}
+.cart-cost {
+    width: 20%;
+    font-size: 1.2em;
+    color: white;
+}
+.cart-quantity {
+    width: 35%;
+}
+.cart-item-topic {
+    color: white;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+.cart-item-img{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger {
+    color: white;
+    background-color: #a01313;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-row:last-child {
+    border-bottom: 1px white;
+}
+.cart-row:last-child .cart-column {
+    border: none;
+}
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-topic {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    margin-right: 20px;
+}
+.cart-total-cost {
+    color: white;
+    font-size: 1.1em;
+}
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+/* adding styles to the form*/
+.box h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+
+}
+.box input[type="text"],.box input[type="text"],.box input[type="email"],.box input[type="number"]{
+    font-family: SansSerif;
+    color:white;
+    background: none;
+    display:block;
+    margin:5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 5px;
+    width:300px;
+    outline: none;
+    border-radius:10px;
+}
+.box input[type="text"]:focus,.box input[type="text"]:focus,.box input[type="email"]:focus,.box input[type="number"]:focus{
+    width:350px;
+    border-color: #2ecc71;
+}
+.button{
+    font-family:Arial;
+    color: black;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    position:page;
+    font-size: 2em;
+    hight:auto;
+    width:35px;
+}
+.button:hover{
+    background-color: #2D9CDB;
+}
+body{
+    font:15px Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+/* adding styles to the navigation bar*/
+.newContainer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: black;
+    color: azure;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom:#e8491d 3px solid ;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #51ff33;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+}
+label{
+    margin-left: 40%;
+
+}
+
+.logo
+{
+    position: absolute;
+    float: left;
+    top: 0px;
+    margin-left: 30px;
+    width: 23%;
+    height: auto;
+}
+a{
+    color: red;
+}
+.newFooter{
+    font-family:Arial;
+    font-size: small;
+    color: white;
+    bottom:0% ;
+    position: relative;
+   text-align: center;
+
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang= "eng">
+<head>
+    <title>Beatbox Store</title>
+    <meta name="Beatbox" content="Music and instruments">
+    <link rel="stylesheet" href="css/CartStylesheet.css" /> <!-- linking the CSS file-->
+    <script src="javascripts/CartJavascript.js" async></script> <!-- Linking the javaScript file-->
+
+</head>
+<body>
+<header class="main-header">
+
+    <!-- display the logo of the website -->
+    <div class="logo">
+        <a href="../Student02/Home.html"><img src="images/beatbox.png" alt="pic" class = "logo"></a>
+    </div><!--logo-->
+    <div class="newContainer">
+
+        <div id="branding">
+            <h1><span class="highlight">BeatBox</span>Music </h1>
+        </div><!--branding-->
+
+        <!-- creating the navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="../Student02/Home.html">Home</a></li>
+                <li class="current"><a href="#">Shopping</a></li>
+                <li><a href="../Student04/gallery.html">Gallery</a>
+                <li><a href="../Student03/QuizPresenatation.html">Quiz</a></li>
+                <li><a href="../Student03/About_us.html">About us</a></li>
+            </ul>
+        </nav>
+    </div><!--newContainer-->
+</header>
+
+<!-- create increase font size button and decrease font size button-->
+<div id="font-btn">
+    <button class="button" onClick="increaseFontSize('zoom');"> + </button>
+    <button class="button" onClick="decreaseFontSize('zoom');"> - </button>
+</div> <!--font-btn-->
+<div id="zoom" style="font-size: 1em">
+
+    <section class="container">
+        <!-- create alubum section-->
+    <h2 class="section-header">ALBUMS</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-topic">Free Spirit</span>
+            <img class="shop-item-img" src="images/Free_Spirit_by_Khalid.jpg" alt="album1">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$12.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> <!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+        <div class="shop-item">
+            <span class="shop-item-topic">21 </span>
+            <img class="shop-item-img" src="images/2.Adele-21021012.jpg" alt="album2">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$14.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+        <div class="shop-item">
+            <span class="shop-item-topic">Bad </span>
+            <img class="shop-item-img" src="images/mj.jfif" alt="album3">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$13.98</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+            <div class="shop-item">
+                <span class="shop-item-topic">Loud</span>
+                <img class="shop-item-img" src="images/rihanna.jfif" alt="album4">
+                <div class="shop-item-details">
+                    <span class="shop-item-cost">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+                </div><!--shop-item-details-->
+            </div><!--shop-item-->
+
+        <div class="shop-item">
+            <span class="shop-item-topic">Starboy</span>
+            <img class="shop-item-img" src="images/artworks-000207035725-go43ru-t500x500.jpg" alt="album5">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$9.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+        <div class="shop-item">
+            <span class="shop-item-topic">Listen Again </span>
+            <img class="shop-item-img" src="images/Listen-Again-English-2015-500x500.jpg" alt="album6">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$11.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+        <div class="shop-item">
+            <span class="shop-item-topic">Set The Time</span>
+            <img class="shop-item-img" src="images/NJ.jfif" alt="album7">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$9.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+        <div class="shop-item">
+            <span class="shop-item-topic">Despacito</span>
+            <img class="shop-item-img" src="images/despacito.jpg" alt="album8">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$14.59</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+    </div><!--shop-items-->
+</section>
+<section class="container">
+    <!-- create istrument section-->
+    <h2 class="section-header">INSTRUMENTS</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-topic">Base Guitar</span>
+            <img class="shop-item-img" src="images/base-guitar.jpg" alt="Base guitar">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$450</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+
+        <div class="shop-item">
+            <span class="shop-item-topic">Pearl drum set</span>
+            <img class="shop-item-img" src="images/drumSet.jfif" alt="Pearl drum set">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$590</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+
+        <div class="shop-item">
+            <span class="shop-item-topic">Electronic Keyboard</span>
+            <img class="shop-item-img" src="images/Electronic_key_board.jpg" alt="Electronic Keyboard">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$600</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+
+        <div class="shop-item">
+            <span class="shop-item-topic">Electric guitar</span>
+            <img class="shop-item-img" src="images/electric-guitar.jpg" alt="Electric guitar">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$760</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+
+        <div class="shop-item">
+            <span class="shop-item-topic">Trumpet</span>
+            <img class="shop-item-img" src="images/Trumpet.jpg" alt="trumpet">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$120</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+
+
+        <div class="shop-item">
+            <span class="shop-item-topic">Violin</span>
+            <img class="shop-item-img" src="images/Violin.jpg" alt="violin">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$69</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+
+        <div class="shop-item">
+            <span class="shop-item-topic">Congas</span>
+            <img class="shop-item-img" src="images/Congas.jfif" alt="Congo">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$150</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+
+        <div class="shop-item">
+            <span class="shop-item-topic">Saxaphone</span>
+            <img class="shop-item-img" src="images/Saxaphone.jpg" alt="Saxaphone">
+            <div class="shop-item-details">
+                <span class="shop-item-cost">$99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button><!-- create add to cart button -->
+            </div><!--shop-item-details-->
+        </div><!--shop-item-->
+
+    </div><!--shop-items-->
+</section>
+<!-- create a section for shopping cart -->
+<section class="container">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-cost cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div><!--cart row-->
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-topic">Total</strong>
+        <span class="cart-total-cost">$0</span>
+    </div><!--cart-total-->
+</section>
+
+    <!-- create a form to place an order -->
+
+<form class="box" action="Cart.html" method="post">
+    <h3>Place Order</h3>
+    <label for="firstName">First Name</label>
+    <input type="text" name="order" id="firstName" placeholder="First name">
+    <label for="lastName">Last Name</label>
+    <input type="text" name="order" id="lastName" placeholder="Last name">
+    <label for="email">Email</label>
+    <input type="email" name="order" id="email" placeholder="Email">
+    <label for="Account number">Bank Acc no.</label>
+    <input type="number" name="order" id="Account number" placeholder="Acc No.">
+</form>
+    <button class="btn btn-primary btn-purchase" type="submit">PURCHASE</button> <!-- create purchase button-->
+</div>
+<!-- create link to CV -->
+<div class="newFooter">
+Design by:<a href="../Student01/cv1/CV1.html">Shane Perera</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: gotham;
+    src: url(GothamBold.ttf);
+}
+
+@font-face {
+    font-family: openSans;
+    src: url(OpenSans-Light.ttf);
+}
+
+body{
+    background-size: cover;
+    background: url(queen2.jpg) no-repeat center fixed;
+}
+
+#H1{
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    font-family: gotham;
+    background: white;
+    width: 600px;
+    opacity: 0.75;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2{
+    width: 1400px;
+
+    padding: 5px 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    text-decoration-skip: edges;
+}
+
+.freddyImage1{
+    width: 540px;
+    height: 350px;
+    float: right;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#H2{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: openSans;
+    margin-left: 2% ;
+}
+ .para{
+     font-size: 20px;
+     color: #ffffff;
+     font-family: Arial;
+     text-align : justify;
+     margin-left: 2%;
+     margin-right: 2%;
+ }
+
+ .bohemianR{
+     float: left;
+     width: 400px;
+     height: 600px;
+     margin-right: 1%;
+     margin-left: 1%;
+     margin-top: 20%;
+ }
+
+
+

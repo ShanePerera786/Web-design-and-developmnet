@@ -1,0 +1,455 @@
+html{
+    scroll-behavior: smooth;
+}
+.main-body{
+    background-color: black;
+}
+/*--main image decoration--*/
+#showcase{
+    min-height:650px;
+    background:url("../img/mainImg.jpg") no-repeat;
+    background-size: 100%;
+    text-align:center;
+    color: #90fff7;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+#showcase span {
+    margin-top:15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#showcase span:before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 2px;
+    height: 10px;
+    background-color: white;
+    animation: scrollDown 2s infinite;
+}
+
+@keyframes scrollDown {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 0);
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, 22px);
+    }
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: rgba(255, 20, 92, 0.5);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    color: #ff46ee;
+}
+
+/*----About music Decoration-----*/
+#box1{
+    height:100vh ;
+    width: 100%;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: table;
+}
+.Decoration{
+    color: #fffb5a;
+    font-weight: bold;
+}
+#box1 h1{
+    text-align: center;
+    color: #f3f6ff;
+    font-size: 60px;
+    font-family: "Berlin Sans FB Demi";
+    font-style: italic;
+    text-shadow: 3px 2px red;
+}
+.adjust-2{
+    float: left;
+    display: inline-block;
+    width: 50%;
+}
+
+.post img{
+    height: 400px;
+    width: 100%;
+    border: none;
+}
+.wrapper{
+    padding: 60px 60px 60px 60px;
+    text-align: center;
+    background: rgba(255,255,255,0.5);
+}
+.wrapper p{
+    font-family: "Agency FB";
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+/*----Music categories Decoration-----*/
+.box2{
+    height:110vh ;
+    width: 100%;
+    background-image: url("../img/img4.jpg");
+    background-size: cover;
+    background-position: center;
+    display: table;
+}
+.article-1,.article-2,.article-3,.article-4,.article-5 {
+    width:230px;
+    height:55px;
+    border:1px solid #838383;
+    margin-top:20px;
+    padding:15px;
+}
+.article-1{
+    background-image: url("../img/back5.jpg");
+}
+.article-2{
+    background-image: url("../img/back1.jpg");
+}
+.article-3{
+    background-image: url("../img/back2.jpg");
+}
+.article-4{
+    background-image: url("../img/back3.jpg");
+}
+.article-5{
+    background-image: url("../img/back4.jpg");
+}
+.container2 h3{
+    text-align: left;
+    font-style: oblique;
+    color: navy;
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.container2 {
+    width:258px;
+    height:475px;
+    background: rgba(255,255,255,0.5);
+    border:1px solid #000000;
+    border-radius:8px;
+    float:left;
+    position:relative;
+    margin-left:15px;
+    margin-top:20px;
+    padding:20px 12px 25px 12px;
+}
+.imageBorder {
+    width:75px;
+    height:50px;
+    margin-right:15px;
+    float:left;
+}
+.image {
+    height:100px;
+}
+p {
+    margin: 0;
+}
+
+.labelButtonListen {
+    font-family:HebarCondLight, Arial;
+    font-size:17px;
+    color: #340f10;
+    float:right;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.article-1 a:hover{
+    color: #ff111a;
+    margin-left: 10px;
+    transition: all .3s;
+}
+.article-2 a:hover{
+    color: #4120ff;
+    margin-left: 10px;
+    transition: all .3s;
+}
+.article-3 a:hover{
+    color: #b211ff;
+    margin-left: 10px;
+    transition: all .3s;
+}
+.article-4 a:hover{
+    color: #650632;
+    margin-left: 10px;
+    transition: all .3s;
+}
+.article-5 a:hover{
+    color: #2dff2a;
+    margin-left: 10px;
+    transition: all .3s;
+}
+/*----Newly released Music  Decoration-----*/
+.box3{
+    height:110vh ;
+    width: 100%;
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: table;
+}
+.content-box{
+    margin-bottom: 30px;
+}
+.box-1{
+    min-height: 380px;
+    padding-bottom: 30px;
+}
+.header{
+    text-align: center;
+    margin:30px;
+}
+.heading{
+    text-align: center;
+    color: #f3f6ff;
+    font-size: 60px;
+    font-family: "Berlin Sans FB Demi";
+    font-style: italic;
+    text-shadow: 3px 2px red;
+}
+
+.adjust-1{
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+.item{
+    padding: 10px 0;
+}
+.item img{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+.song-content{
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #dd396b;
+    height: 220px;
+}
+
+.item span{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+}
+img,div,span{
+    vertical-align: top;
+}
+a:hover{
+    text-decoration:underline ;
+}
+.btn{
+    border: 3px solid #59781e;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 14px;
+    font-family:Arial;
+    padding: 6px 12px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}
+.btn:hover{
+    color: rgba(126, 54, 19, 0.87);
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+.song-content-2{
+    background: #ff7f58;
+    padding: 25px;
+    border: 1px solid #080807;
+    height: 220px;
+    border-radius: 50px 20px;
+}
+
+.song-content-2:hover{
+    background: #9a25ff;
+    color: #25ff3f;
+    transition: all 600ms ease;
+    border: 1px solid;
+}
+.column-1{
+    margin: 10px;
+}
+/*----Team members Music articles Decoration-----*/
+.box4{
+    height:110vh ;
+    width: 100%;
+    background-image: url("../img/img3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: table;
+}
+
+.box4 h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.song-content:hover{
+    background: #ff83b2;
+    color: white;
+    transition: all 600ms ease;
+    border: 1px solid;
+}
+.item-2 img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+}
+.item-2 span{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*--Footer section--*/
+footer{
+    background:#303036 ;
+    color: #d3d3d3;
+    height: 500px;
+    position: relative;
+}
+.footer-content{
+    height: 500px;
+    display: flex;
+}
+.footer-section{
+    flex: 1;
+    padding: 25px;
+}
+.footer-content h1,.footer-content h2{
+    color: white;
+}
+.about h1 span{
+    color: #51ff33;
+}
+.icon3{
+    border: 2px solid gray;
+    width: 45px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+.icon3:hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+.links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: aqua;
+    font-weight: bold;
+    text-decoration: none;
+}
+.links ul a:hover{
+    color: white;
+    margin-left: 10px;
+   
+}
+a:hover{
+	 transition: all .3s;
+}
+
+#name,#msg,#email {
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    padding: .7rem 1.2em;
+    width: 180px;
+}
+#msg{
+    width: 405px;
+    height: 35px;
+}
+#name:hover,#email:hover{
+    border-color: #ffe786;
+}
+.submit,.sitemap{
+    padding: .5rem 1rem;
+    background: grey;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-top: 25px;
+}
+
+.submit:hover,.sitemap:hover{
+    color: white;
+    line-height: 1.3rem;
+}
+.footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+}
+.footerlast{
+    color: white;
+    text-decoration: none;
+}
+.footerlast:hover{
+    color: #51ff33;
+    font-size: 20px;
+}
+
+

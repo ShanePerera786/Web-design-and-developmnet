@@ -1,0 +1,81 @@
+body{
+    min-height:650px;
+    background:url("../img/michale.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.adjust-2{
+    display: inline-block;
+    margin-top:500px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+.wrapper {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+/*--Article section decoration--*/
+.wrapper h1{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+h1 span{
+    color: #a99839;
+    margin-left: 10px;
+}
+h2{
+    text-align: left;
+    margin-left: 15px;
+}
+h4{
+    text-align: left;
+    margin-left: 25px;
+}
+p{
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+ul{
+    text-align: left;
+}
+ol{
+    text-align: left;
+}
+.myArtist-1{
+    float: right;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+}
+.myArtist-2{
+    float: right;
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+/*--Video decoration section--*/
+.mvideo{
+    background: url("../img/Music-notes.jpg");
+    height:400px ;
+    margin: 10px;
+}
+.mvideo h1{
+    text-align: center;
+    font-size: 30px ;
+    font-style: oblique;
+}
+.video-1{
+    float: left;
+    margin-left: 30px;
+}
+.video-1 h3{
+    font-size: 25px;
+    background: black;
+    color: #25ff3f;
+
+}

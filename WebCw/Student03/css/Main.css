@@ -1,0 +1,86 @@
+.main-body{
+    font:15px Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.button{
+    font-family:Arial;
+    color: black;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    position:page;
+    font-size: 2em;
+    width: 35px;
+    height: auto;
+    float: left;
+}
+.button:hover{
+    background-color: #2D9CDB;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: black;
+    color: azure;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom:#e8491d 3px solid ;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #51ff33;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo
+{
+    position: absolute;
+    float: left;
+    top: 0px;
+    margin-left: 30px;
+    width: 23%;
+    height: auto;
+}
+

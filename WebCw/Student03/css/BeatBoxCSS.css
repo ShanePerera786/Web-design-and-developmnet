@@ -1,0 +1,334 @@
+@font-face
+{
+	font-family:headFont;
+	src: url(../Fonts/Rockit.ttf);
+}
+
+@font-face
+{
+	font-family:textFont;
+	src: url(../Fonts/BreeSerif-Regular.ttf);
+}
+
+/*Quiz Presentation Page stylesheet*/
+.stu3HTML 
+{ 
+	background:url(../Stu3Images/countryMusic.jpg) no-repeat center fixed;
+	background-size: cover;
+	/*background: black;*/
+}
+	
+#h3
+{
+	font-family:headFont;
+	color:white;
+	font-size:40px;
+	margin-bottom:0;
+	margin-top:5px;
+	text-align:center;
+}
+#H3
+{
+	font-family:headFont;
+	color:black;
+	font-size:40px;
+	margin-bottom:0;
+	margin-top:0;
+	text-align:center;
+}
+	
+#h4
+{
+	font-family:textFont;
+	text-align:center;
+	font-size:30px;
+	width:50%;
+	margin-left:25%;
+	padding:20px;
+	background: rgba(255, 255, 255, 0.5);
+	border: 5px solid rgb(255, 153, 0);
+	border-radius: 20px;
+}
+
+.Start
+{
+	height:100px;
+}
+
+.stu3Footer1
+{
+	color:white;
+	margin-top:6%;
+}
+
+
+/*Stylesheet for the Quiz page*/	
+
+.question
+{
+	font-family:textFont;
+	font-size:30px;
+	background: rgba(255, 255, 255, 0.5);
+	border: 5px solid rgb(255, 153, 0);
+	border-radius: 20px;
+	margin-bottom:20px;
+	
+}
+
+.answer
+{
+	font-family:textFont;
+	display:inline-block;
+	width: 50%;
+	padding:5px;
+	background: rgba(255, 255, 255, 0.5);
+	vertical-align:middle;
+	border: 1px solid rgb(255, 153, 0);
+	border-radius:20px;
+	margin-top: 10px ;
+	text-align:left;
+	cursor: pointer;
+	margin-bottom:10px;
+}
+.answer:hover
+{
+	background-color:#990099;
+}
+
+.nextQ
+{
+	cursor:pointer;
+	border-radius: 12px;
+	width:150px;
+	height:50px;
+	display:inline-block;
+	margin:10 0 10 0;
+}
+.nextQ:hover
+{
+	background-color: #00ff00; 
+}
+
+.result
+{
+	font-family:textFont;
+	
+	text-align:center;
+	font-size:25px;
+	background: rgba(255, 255, 255, 0.5);
+	margin-left:10%;
+	margin-right:10%;
+	border-radius:20px;
+}
+
+
+
+#timer 
+{
+  background: rgba(255, 255, 255, 0.5);
+  border: 5px solid rgb(255, 153, 0);
+  border-radius:50px;
+  font-size: 30px;
+  width:30%;
+}
+
+.stu3Footer2
+{
+	color:white;
+	margin-top:4%;
+}
+
+/*Stylesheet for About us page*/
+.ImageContainer 
+{
+    margin-top:;
+    margin-left:4%;
+    position: relative;
+    width: 20%;
+	float:left;
+}
+
+.image
+ {
+	width:100%;
+	height:400px;
+	margin-top:10%;
+	border-radius:300px;
+	opacity:1;
+}
+
+.TextContainer 
+{
+	position: absolute;
+	top: 6%;
+	bottom: 0;
+	left: 0;
+	right: 2%;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #000033;
+}
+
+.ImageContainer:hover .TextContainer 
+{
+	opacity: 1;
+	border-radius:300px;
+  
+}
+
+.text 
+{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.stu3Footer3
+{
+	color:white;
+}
+
+/*Stylesheet for Student Cv's */ 
+.stu
+{
+    font-size:30px;
+}
+
+.Image
+{
+    width:20%;
+    margin-left:80%;
+}
+
+#contanier
+{
+    background:rgba(255, 255, 255, 0.7);
+    display:grid;
+    grid-template-columns:auto;
+    width: 50%;
+	margin-top:3%;
+    margin-left:25%;
+    border: 1px solid black;
+    padding : 20px;
+    border-radius:50px;
+}
+#item
+{
+    text-align:left;
+    display : grid;
+    grid-template-columns:auto auto;
+    border: 1.5px solid black;
+    border-radius:10px;
+    padding:5px;
+    margin-bottom:5px;
+}
+.item
+{
+    background-color:black;
+    height:20px;
+}
+#item1
+{
+    display:grid;
+    grid-template-columns:auto auto;
+}
+
+.Home
+{
+	width:10%;
+	border-radius:50px;
+	float : right;
+	margin-left:80%;
+}
+
+.stu3Footer4
+{
+	color:white;
+	margin-top:490px;
+}
+
+.cvLink
+{
+	color:white;
+}
+ 
+ /*Article*/
+ 
+.articleHTML
+{
+	background:url(../Stu3Images/BackgroundMarley.jpg) no-repeat center fixed;
+	background-size: cover;
+	font-family:textFont;
+	/*text-align:justify;*/
+	
+ }
+.para
+{
+	text-align:justify;
+}
+ .articleContainer
+ {
+	margin-left: 5%;
+	margin-right:5%;
+	padding:3%;
+	background: rgba(255, 255, 255, 0.5);
+	border: 5px solid rgb(255, 153, 0);
+	border-radius:50px;
+ }
+ 
+ .marleyImage1
+ {
+	float:right;
+	margin-left:5%;
+	border-radius:20px;
+ }
+ 
+ .marleyImage2
+ {
+	float :left;
+	border-radius:20px;
+	margin-right:5%;
+	height : 20%;
+ }
+ 
+ #h3Title
+ {
+	font-size:30px;
+ }
+ 
+ .ArticleFooter4
+ {
+	 margin-top:10px;
+	 color:black;
+ }
+ .ArticalcvLink
+ {
+	 color:black;
+ }
+ 
+ /*Zoom in and Zoom out stylesheet*/
+ 
+ .button{
+    font-family:Arial;
+    color: black;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    position:page;
+    font-size: 2em;
+    width: 35px;
+    height: auto;
+    float: left;
+}
+.button:hover{
+    background-color: #2D9CDB;
+}
